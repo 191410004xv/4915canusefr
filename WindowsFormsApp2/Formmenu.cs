@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using WindowsFormsApp2.lab2;
 using WindowsFormsApp2.lab3;
 using WindowsFormsApp2.lab1;
+using WindowsFormsApp2.lab4;
 
 namespace WindowsFormsApp2
 {
@@ -59,8 +60,13 @@ namespace WindowsFormsApp2
 
                 case "Lab3b":
                     Formlab3b formlab3B = new Formlab3b();
-                    formlab3B.Show(); break;    
-                
+                    formlab3B.Show(); break;
+
+                case "Lab4":
+                    frmLab4 formlab4 = new frmLab4();
+                    formlab4.Show(); break;
+
+
 
 
 
@@ -77,6 +83,7 @@ namespace WindowsFormsApp2
             cboLabs.Items.Add("Lab2C");
             cboLabs.Items.Add("Lab3a");
             cboLabs.Items.Add("Lab3b");
+            cboLabs.Items.Add("Lab4");
         }
     }
 }
